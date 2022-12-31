@@ -16,10 +16,10 @@ const users = [   //가상 db
 const sessions = []
 
 app.get('/users', (req, res) => {
-    const user = sessions.find(session => session.ssid === req.cookies.ssid)
-    console.log(sessions)
-    console.log(user)
-    res.send({id: user.id})
+    const user = sessions.find(session => session.ssid === req.cookies.ssid) // sessions db 에 있는 ssid 값과 cookies 로 요청받은 ssid 값은 것을 찾아서 user 에 저장
+    console.log(sessions) //sessions db 출력
+    console.log(user)     // user 출력 
+    res.send({id: user.id})  // 키가 id 이고 벨류가 user.id 로 응답한다 ex) {"id": "zkzk"}
 });
 
 app.post('/login', (req, res) => {
