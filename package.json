@@ -1,0 +1,22 @@
+{
+  "name": "login-by-token",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlfmaodtod77/login-by-token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zlfmaodtod77/login-by-token/issues"
+  },
+  "homepage": "https://github.com/zlfmaodtod77/login-by-token#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
